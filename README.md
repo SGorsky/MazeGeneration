@@ -1,4 +1,4 @@
-# MazeGeneration
+# MazeGeneration (Open as RAW)
 
 This algorithm can be used to create a perfect maze in Java (only 1 path between any two points)
 The size of the maze must be odd in order to prevent the outer wall from looking something like this:
