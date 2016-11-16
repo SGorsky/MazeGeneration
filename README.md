@@ -39,7 +39,8 @@ While the stack is not empty
   If there are no cells to choose from
     Pop the stack and set the removed element as your current cell
 
-Here is the algorithm implemented on a 9*9 maze: 
+Here is the algorithm implemented on a 9*9 maze:
+
 XXXXXXXXX   XXXXXXXXX   XXXXXXXXX   XXXXXXXXX   XXXXXXXXX
 X XXXXXXX   X XXXXXXX   X XXXXXXX   X XXXXXXX   X XXXXXXX
 X XXXXXXX   X XXXXXXX   X XXXXXXX   X XXXXXXX   X XXXXXXX
