@@ -1,7 +1,7 @@
 # MazeGeneration (Open as RAW)
 
 This algorithm can be used to create a perfect maze in Java (only 1 path between any two points)
-The size of the maze must be odd in order to prevent the outer wall from looking something like this:
+The size of the maze must be odd in order to prevent having a double outer walllike this:
 
 Maze Size: 10*10
 XXXXXXXXXX
@@ -40,15 +40,15 @@ While the stack is not empty
     Pop the stack and set the removed element as your current cell
 
 Here is the algorithm implemented on a 9*9 maze: 
-XXXXXXXXX				XXXXXXXXX				XXXXXXXXX				XXXXXXXXX
-X XXXXXXX				X XXXXXXX				X XXXXXXX				X XXXXXXX
-X XXXXXXX				X XXXXXXX				X XXXXXXX				X XXXXXXX
-X XXXXXXX				X   XXXXX				X   XXXXX				X   XXXXX
-XXXXXXXXX				XXXXXXXXX				XXX XXXXX				XXX XXXXX
-XXXXXXXXX				XXXXXXXXX				XXX XXXXX				XXX   XXX
-XXXXXXXXX				XXXXXXXXX				XXXXXXXXX				XXXXXXXXX
-XXXXXXXXX				XXXXXXXXX				XXXXXXXXX				XXXXXXXXX
-XXXXXXXXX				XXXXXXXXX				XXXXXXXXX				XXXXXXXXX
+XXXXXXXXX		XXXXXXXXX		XXXXXXXXX		XXXXXXXXX
+X XXXXXXX		X XXXXXXX		X XXXXXXX		X XXXXXXX
+X XXXXXXX		X XXXXXXX		X XXXXXXX		X XXXXXXX
+X XXXXXXX		X   XXXXX		X   XXXXX		X   XXXXX
+XXXXXXXXX		XXXXXXXXX		XXX XXXXX		XXX XXXXX
+XXXXXXXXX		XXXXXXXXX		XXX XXXXX		XXX   XXX
+XXXXXXXXX		XXXXXXXXX		XXXXXXXXX		XXXXXXXXX
+XXXXXXXXX		XXXXXXXXX		XXXXXXXXX		XXXXXXXXX
+XXXXXXXXX		XXXXXXXXX		XXXXXXXXX		XXXXXXXXX
 
 XXXXXXXXX       XXXXXXXXX       XXXXXXXXX       XXXXXXXXX
 X XXXXXXX       X XXXXXXX       X XXXXXXX       X XXXXXXX
