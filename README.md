@@ -32,7 +32,7 @@ Start with a grid of walls
 Pick a random point (I used {1, 1} ) and set it to empty. This cell is your current cell
 Add that point to a stack of cell locations
 While the stack is not empty
-  Get the cells that are two above, below, left and right of the current cell if they are in the maze and are walls
+  Get the cells that are two above, below, left and right of the current cell if they are in the maze and are not on the outer border
     Pick a random neighbouring cell. 
     Set that cell to an empty cell and set the cell in between your current cell and the chosen cell to empty
     Set your current cell to the chosen cell's location and add that location to the top of a stack
